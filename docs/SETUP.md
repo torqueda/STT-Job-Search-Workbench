@@ -9,7 +9,8 @@
 - Your current resume in any format.
 
 ## Steps
-1. `git clone` this repository (or download it) and `cd` into it.
+1. Clone the repository and enter it: `git clone https://github.com/torqueda/STT-Job-Search-Workbench.git`, then
+   `cd STT-Job-Search-Workbench` (or download the ZIP and open the extracted folder).
 2. `python3 scripts/init_workspace.py` creates `workspace/` from `templates/`. It never overwrites existing files, so it is safe
    to run again after pulling an update. `workspace/` is ignored by git.
    - Prefer another location? `--workspace ~/Documents/my-job-search` (or set `JOBSEARCH_WORKSPACE`) and use the same option

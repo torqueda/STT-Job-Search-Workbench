@@ -1,0 +1,46 @@
+name: Bug report
+description: Something in the scripts, tests, templates or docs is broken or wrong. No personal data, please.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Do not paste your resume, tracker rows, workspace files, postings tied to you or anything personal.** If the
+        problem only shows up with your own data, describe it in general terms or reproduce it on the fictional demo
+        (`examples/demo_persona`).
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The exact commands, in order.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened
+      description: Paste the error text, with any personal details removed.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Operating system and Python version
+      placeholder: "Windows 11, Python 3.11"
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: "I removed personal information from everything in this issue."
+          required: true

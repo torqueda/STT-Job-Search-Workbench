@@ -44,4 +44,7 @@ mid-conversation: start a fresh chat for each session.
 
 ## If you try another assistant
 
-When reporting compatibility, record: which assistant, which of the six checks above passed, and where it drifted. Open an issue.
+When reporting compatibility, record: which assistant, which of the six checks above passed, and where it drifted. The
+[testing guide](TESTING_GUIDE.md) walks through the checks step by step, and the
+[tester feedback form](https://github.com/torqueda/STT-Job-Search-Workbench/issues/new?template=tester-feedback.yml) collects the
+answers without asking for any personal data.

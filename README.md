@@ -85,10 +85,11 @@ replace its content. New wording goes into the evidence ledger first, with a sou
 
 ## Try it without personal data
 
-Python 3.10 or newer is required. From a downloaded or cloned copy of the repository:
+Python 3.10 or newer is required.
 
 ```bash
-cd job-search-workflow                   # use the name of your local project folder
+git clone https://github.com/torqueda/STT-Job-Search-Workbench.git
+cd STT-Job-Search-Workbench
 python3 -m venv .venv
 source .venv/bin/activate                 # Windows PowerShell: .venv\Scripts\Activate.ps1
 python3 -m pip install -r requirements.txt
@@ -101,7 +102,8 @@ Without `make`, run `python3 -m unittest discover -s tests` and the commands in 
 company at its application limit and an answer that needs rewriting. Neither represents a real applicant.
 
 Core checks use the Python standard library. `python-docx` enables DOCX generation, `openpyxl` enables Excel tracking,
-and `pypdf` enables reading an existing PDF for review. The full test suite uses these dependencies.
+and `pypdf` enables reading an existing PDF for review. The test suite needs `python-docx` and `openpyxl`; no test uses
+`pypdf`.
 
 ## Set up your own search
 
@@ -136,6 +138,13 @@ Corrections become dated rules or evidence, according to your chosen confirmatio
 requires a `change_note` and a new revision; regenerate affected drafts and re-review changed text. This is persistent
 file-based context, not model training. [Personalizing the workflow](docs/PERSONALIZING.md) explains the learning loop.
 
+## Help test it
+
+Testing needs no personal data: run the tests and the fictional demo, or check how your assistant behaves on the demo
+workspace. The [testing guide](docs/TESTING_GUIDE.md) lists the steps, what to report and what never to paste, and the
+[tester feedback form](https://github.com/torqueda/STT-Job-Search-Workbench/issues/new?template=tester-feedback.yml)
+collects the results.
+
 ## Repository map
 
 ```text
@@ -145,7 +154,7 @@ scripts/                 CLI tools and shared Python modules
 templates/               blank workspace files and spec examples
 examples/demo_persona/   fictional workspace used by the demo and tests
 tests/                   offline regression tests; no real applicant data
-docs/                    setup, design, evidence, sourcing, tracking and release guides
+docs/                    setup, testing, design, evidence, sourcing, tracking and release guides
 workspace/               private applicant data; created locally, ignored by Git
 ```
 
