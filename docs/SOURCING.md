@@ -39,7 +39,7 @@ Ask the assistant to follow this recipe, and review what it proposes:
    access is not allowed, stop.
 2. **Produce the common shape:** `{title, company, location, url, description, posted}` (see `sourcing.listing_from_feed_row`)
    or the adapter row shape in `employer_watch.py` (`{title, loc, posted, url, id, date_source}`).
-3. **Read-only and gentle:** plain GETs, an honest User-Agent, a pause between requests, one request per employer board per run; report a failure and move on.
+3. **Read-only and gentle:** plain GETs, an honest User-Agent (these scripts identify themselves as the Workbench and link to this repository; if you fork it, change the string to name your fork), a pause between requests, one request per employer board per run; report a failure and move on.
 4. **Add a test** that stubs the network (see `SourcingTests`), and document the source here.
 5. **Never store credentials or cookies** in the repository or the workspace.
 

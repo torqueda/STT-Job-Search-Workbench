@@ -36,7 +36,7 @@ from skip_list import default_path, load_skipped_urls  # noqa: E402
 from tracker import Tracker  # noqa: E402
 from workspace import announce, load_config, workspace_dir  # noqa: E402
 
-USER_AGENT = 'job-search-workflow/1.0 (personal job search; reads public JSON)'
+USER_AGENT = 'STT-Job-Search-Workbench/1.0 (+https://github.com/torqueda/STT-Job-Search-Workbench; personal job search; reads public JSON)'
 
 
 def http_get_json(url, timeout=60):
