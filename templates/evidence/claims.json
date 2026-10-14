@@ -1,0 +1,18 @@
+{
+  "_how_to": [
+    "The evidence ledger: the only source of facts about you. Nothing reaches a resume, letter or answer unless it is a claim here (or a reflection in your own words).",
+    "A generated resume, letter or answer is never evidence, even one you sent. If you edit a draft and add a true statement, the assistant records it here with its date and source.",
+    "Each claim: text (one resume-ready sentence), source (where the fact comes from: your own answer with date, a report, a review), ownership (personal / shared with whom / team result), limitations (what must not be claimed, the scope of any number) and status (usable / needs_confirmation / retired).",
+    "Keep personal and team credit separate. State what a number measured, over what, against what baseline. Do not turn a dataset size into 'processed', a projection into a result, a prototype into production or a pilot into adoption.",
+    "A project whose purpose you have confirmed needs a '<project>.purpose' claim saying why it existed; resumes show it as an italic line under the title.",
+    "See docs/EVIDENCE_MODEL.md for the full field list and examples."
+  ],
+  "revision": "0.0.1",
+  "change_note": "Initial empty ledger.",
+  "authority": "Only claims with status 'usable' may be used. Reflections carry motives and personal details in the user's own words.",
+  "claims": {},
+  "reflections": {},
+  "credentials": {},
+  "languages": {},
+  "unresolved": []
+}

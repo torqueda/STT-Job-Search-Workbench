@@ -1,0 +1,6 @@
+Date applied,Company,Job title,Type,Location,Link,Requisition ID,Job family,Fit,Source,Referral,Resume version,Application package,Status,Stage date,First response date,Interview date,Next action,Notes
+2025-11-24,Brightwater Example Inc.,Junior Data Analyst,Full-time,"Springfield, ST",https://careers.example.com/brightwater/jobs/1001,1001,data_analytics,Good,employer site,,DataAnalytics,,Submitted,2025-11-24,,,,
+2025-11-24,Cedar Example Labs,Associate Data Scientist,Full-time,Remote (US),https://careers.example.com/cedar/jobs/2002,2002,data_analytics,Stretch,github feed,,DataAnalytics,,Rejected,2025-12-02,2025-12-02,,,
+2025-12-01,Harbor Example Systems,AI Application Developer I,Full-time,"Springfield, ST",https://careers.example.com/harbor/jobs/3003,3003,ai_applications,Good,employer site,,AIApplications,,Interview,2025-12-18,2025-12-12,2025-12-18,Prepare a walkthrough of the library assistant project,
+2025-12-01,Delta Example Foods,Product Analyst,Full-time,"Chicago, ST",https://careers.example.com/delta/jobs/6002,6002,product_analytics,Good,employer site,,ProductAnalytics,,Submitted,2025-12-01,,,,
+2026-01-02,Harbor Example Systems,Junior Data Analyst,Full-time,"Springfield, ST",https://careers.example.com/harbor/jobs/3004,3004,data_analytics,Good,employer site,,DataAnalytics,,Submitted,2026-01-02,,,,Second Harbor application; cap reached

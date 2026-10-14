@@ -1,0 +1,10 @@
+{
+  "_how_to": [
+    "Statements that must never appear in anything you send. The checks block a resume, letter or answer that matches a rule.",
+    "Start empty. Add a rule each time you catch a mistake in a draft, so the same mistake cannot return. Typical sources: a metric whose denominator you could not verify, a certification you do not hold, a claim of users or deployment you cannot back up, an employer or course name that is meaningless outside your school.",
+    "Fields: id (short name), pattern (regex, case-insensitive), message (what is wrong and what to say instead), unless (optional regex; if it also matches, the rule does not fire).",
+    "Example rule:",
+    "{\"id\": \"modeled-vs-realized\", \"pattern\": \"(?:increased|reduced|saved) (?:\\\\w+ ){0,5}40\\\\s*%\", \"unless\": \"model(?:ed|led)|estimate\", \"message\": \"The 40% figure is a modeled estimate, not a realized result; say 'modeled'.\"}"
+  ],
+  "rules": []
+}

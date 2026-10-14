@@ -1,0 +1,25 @@
+{
+  "_comment": "FICTIONAL DEMO WORKSPACE. Jordan Example is not a real person and none of this describes a real person.",
+  "fictional_demo": true,
+
+  "tracker": {"format": "csv", "path": "tracker.csv"},
+  "backup_keep": 30,
+  "events_path": "application_events.jsonl",
+
+  "duplicate_check_days_threshold": 60,
+  "max_applications_per_company_in_window": 2,
+
+  "excluded_companies": [
+    {"name": "Placeholder Robotics Example", "reason": "Fictional example of an exclusion with an end date", "until": "2099-01-01"}
+  ],
+  "excluded_keywords": ["unpaid", "commission only"],
+  "excluded_title_patterns": ["^(?:senior|sr\\.?|principal|lead|staff)\\b"],
+  "lane_title_patterns": ["data", "analy", "\\bai\\b", "machine learning", "insight", "product"],
+
+  "sources": {"github_feed_url": "https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/dev/.github/scripts/listings.json"},
+  "watch_filters": {},
+  "letters": {"min_words": 120, "max_words": 350, "required_opening": null, "required_closing": null},
+  "resume_limits": {"max_skill_groups": 4, "max_skills_total": 28, "max_courses": 6, "max_projects": 3,
+                    "max_bullets_per_project": 2, "max_bullets_per_role": 2},
+  "editorial_checks_disabled": []
+}

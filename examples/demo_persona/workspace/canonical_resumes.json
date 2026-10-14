@@ -1,0 +1,56 @@
+{
+  "_comment": "FICTIONAL DEMO DATA. Three personas for the invented applicant Jordan Example.",
+  "revision": "2026-01-05.1",
+  "change_note": "2026-01-05 (revision 2026-01-05.1): demo personas created from the demo ledger. Previous: none.",
+  "profiles": {
+    "DataAnalytics": {
+      "family": "data_analytics",
+      "core_positioning": "Early-career analyst who turns messy operational data into forecasts and reports a decision-maker can use.",
+      "skills": [
+        {"group": "Analysis", "items": ["Python", "pandas", "SQL", "regression", "forecast evaluation"]},
+        {"group": "Tools", "items": ["scikit-learn", "Excel", "Git"]}
+      ],
+      "projects": [
+        {"id": "bikeshare", "title": "Bike-Share Demand Forecast - Course Capstone for a City Parks Department",
+         "claim_ids": ["bikeshare.how", "bikeshare.result"], "purpose_id": "bikeshare.purpose"},
+        {"id": "pantry", "title": "Pantry Planner - Personal Web App",
+         "claim_ids": ["pantry.how", "pantry.result"], "purpose_id": "pantry.purpose"}
+      ],
+      "required_claim_ids": ["bikeshare.result"],
+      "coursework": "Relevant coursework: Regression Analysis, Databases"
+    },
+    "AIApplications": {
+      "family": "ai_applications",
+      "core_positioning": "Early-career builder of small, evaluated language-model applications.",
+      "skills": [
+        {"group": "AI Applications", "items": ["Python", "retrieval", "FAISS", "sentence embeddings"]},
+        {"group": "Evaluation", "items": ["hand-labelled test sets", "error analysis"]},
+        {"group": "Engineering", "items": ["Flask", "SQLite", "Git", "unit testing"]}
+      ],
+      "projects": [
+        {"id": "library", "title": "Library FAQ Assistant - NLP Course Project",
+         "claim_ids": ["library.how", "library.result"], "purpose_id": "library.purpose"},
+        {"id": "pantry", "title": "Pantry Planner - Personal Web App",
+         "claim_ids": ["pantry.how", "pantry.result"], "purpose_id": "pantry.purpose"}
+      ],
+      "required_claim_ids": ["library.how"],
+      "coursework": "Relevant coursework: Introduction to Natural Language Processing, Databases"
+    },
+    "ProductAnalytics": {
+      "family": "product_analytics",
+      "core_positioning": "Early-career analyst who measures whether a feature or model helps its users.",
+      "skills": [
+        {"group": "Analysis", "items": ["Python", "pandas", "SQL", "experiment design"]},
+        {"group": "Evaluation", "items": ["baseline comparison", "test-set design"]}
+      ],
+      "projects": [
+        {"id": "library", "title": "Library FAQ Assistant - NLP Course Project",
+         "claim_ids": ["library.how", "library.result"], "purpose_id": "library.purpose"},
+        {"id": "bikeshare", "title": "Bike-Share Demand Forecast - Course Capstone for a City Parks Department",
+         "claim_ids": ["bikeshare.how", "bikeshare.result"], "purpose_id": "bikeshare.purpose"}
+      ],
+      "required_claim_ids": ["library.result"],
+      "coursework": "Relevant coursework: Regression Analysis, Introduction to Natural Language Processing"
+    }
+  }
+}

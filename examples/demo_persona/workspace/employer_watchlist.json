@@ -1,0 +1,8 @@
+{
+  "_comment": "FICTIONAL DEMO. These employers do not exist, so the watcher reports them as manual.",
+  "metros": {"home": "\\b(Springfield|ST)\\b"},
+  "employers": [
+    {"name": "Brightwater Example Inc.", "ats": "manual", "note": "fictional employer; no public feed"},
+    {"name": "Harbor Example Systems", "ats": "manual", "note": "fictional employer; no public feed"}
+  ]
+}

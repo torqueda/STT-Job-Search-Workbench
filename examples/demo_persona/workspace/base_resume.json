@@ -1,0 +1,25 @@
+{
+  "_comment": "FICTIONAL DEMO DATA: Jordan Example is not a real person. The school, employers, projects and numbers are invented.",
+  "name": "Jordan Example",
+  "contact_line": "jordan.example@example.com | (555) 555-0100 | linkedin.com/in/jordan-example | github.com/jordan-example",
+  "education": [
+    {
+      "institution": "Example State University (fictional) - B.S. Statistics",
+      "date": "May 2026",
+      "location": "Springfield, ST | Example honors | GPA: 3.8",
+      "note": ""
+    }
+  ],
+  "default_coursework": "Relevant coursework: Regression Analysis, Databases, Introduction to Natural Language Processing",
+  "default_skills": [],
+  "default_projects": [],
+  "professional_experience": [
+    {
+      "title": "Student Data Assistant, Registrar's Office, Example State University (fictional)",
+      "date": "Sep 2024 - May 2026",
+      "bullets": ["Replaced a manual weekly enrollment report with a Python script that produces the same tables, cutting the preparation step from about an hour to a few minutes."]
+    }
+  ],
+  "style": {"font": "Calibri", "body_size": 10.5, "heading_color": "0F243E",
+            "projects_heading": "Projects", "experience_heading": "Professional Experience"}
+}

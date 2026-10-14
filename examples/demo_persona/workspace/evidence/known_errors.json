@@ -1,0 +1,10 @@
+{
+  "_comment": "FICTIONAL DEMO DATA. Two example rules for the invented applicant.",
+  "rules": [
+    {"id": "no-usage-claims", "pattern": "(?:thousands|hundreds|dozens) of (?:users|customers|people)",
+     "message": "No usage or adoption is supported for any demo project. Pantry Planner has only its author as a user."},
+    {"id": "error-reduction-baseline", "pattern": "(?:reduced|cut|lowered) (?:forecast )?error by \\d+\\s*%",
+     "unless": "baseline|held-out",
+     "message": "State the error reduction against the named baseline on the held-out month (41 to 29 rentals per day), not as a bare percentage."}
+  ]
+}

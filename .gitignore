@@ -1,0 +1,11 @@
+# Personal data never belongs in the repository
+/workspace/
+*.bak
+*.writer-lock
+.DS_Store
+~$*
+__pycache__/
+*.pyc
+.venv/
+# keep your own PII deny-list outside the repo; never commit it
+denylist*.txt

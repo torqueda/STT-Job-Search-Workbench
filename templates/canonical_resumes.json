@@ -1,0 +1,13 @@
+{
+  "_how_to": [
+    "One entry under 'profiles' per persona (a job family you apply to). Built during setup with prompts/03_personas_and_resumes.md.",
+    "A persona lists skill groups, its projects, and for each project the ledger claim IDs that become its bullets and the purpose_id that becomes its italic 'why it existed' line.",
+    "'required_claim_ids' are claims the persona must always show; the generator refuses a persona that loses one.",
+    "Batch specs reference a persona by canonical_id and this file's 'revision'. They can reorder projects but never replace content.",
+    "Change a persona only for a documented reason: edit it, write the reason in change_note, and increase 'revision'. Every older batch spec then fails as stale on purpose.",
+    "See docs/EVIDENCE_MODEL.md for a complete worked example, and examples/demo_persona for a runnable one."
+  ],
+  "revision": "0.0.1",
+  "change_note": "Initial empty catalog.",
+  "profiles": {}
+}

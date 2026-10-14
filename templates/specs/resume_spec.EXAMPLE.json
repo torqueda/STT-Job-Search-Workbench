@@ -1,0 +1,17 @@
+{
+  "_how_to": "A batch spec (schema_version 2). Copy to resume_versions/<date>.json. It names which persona each employer's resume uses and may reorder projects; it never carries resume content. Set approved to true only after you made your Gate 1 choice. Try it with: python3 scripts/resume_generator.py --spec resume_versions/<date>.json --dry-run",
+  "schema_version": 2,
+  "batch": "YYYY-MM-DD_example",
+  "approved": false,
+  "versions": [
+    {
+      "canonical_id": "PersonaName",
+      "canonical_revision": "0.0.1",
+      "label": "PersonaName",
+      "job_family": "your_job_family",
+      "companies": ["Example Co"],
+      "target_jobs": ["Job title - requisition 123"],
+      "project_order": ["project_one", "project_two"]
+    }
+  ]
+}

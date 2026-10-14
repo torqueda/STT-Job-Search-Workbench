@@ -1,0 +1,17 @@
+{
+  "_how_to": "A review object for one file. Written by the person or assistant who actually checked the text, after drafting. Get text_sha256 with: python3 scripts/workflow_quality.py <file> (add --writing for answers and letters). Do not fill positive notes from a clean automated run; the notes must say what was checked.",
+  "text_sha256": "digest printed by workflow_quality.py",
+  "evidence_revision": "the revision in evidence/claims.json",
+  "reviewer": "name of the reviewer",
+  "reviewed_at": "YYYY-MM-DD",
+  "claim_checks": [
+    {"statement": "Exact sentence from the file", "source": "ledger claim or dated user statement", "scope_check": "ownership and limits checked", "claim_id": "optional.claim_id"}
+  ],
+  "company_sources": [{"url": "https://example.com/careers/123", "detail": "what the page supports"}],
+  "role_match": "Which central needs of the role the file answers, and with which evidence.",
+  "voice": "Specific notes on voice.",
+  "proofreading": "What was checked: names, title, dates, grammar.",
+  "page_count": 1,
+  "visual_review": "How the rendered pages were inspected (PDF and DOCX attachments only).",
+  "warning_resolutions": {"gap_disclaimer": "A concrete reason for keeping flagged wording, if any."}
+}

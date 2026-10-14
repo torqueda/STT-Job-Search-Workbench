@@ -1,0 +1,27 @@
+{
+  "_how_to": "A cover-letter batch (schema_version 2). Letters are optional by default: only write one the posting requires or you asked for. Get each body's hash with: python3 scripts/cover_letter_generator.py --spec <spec> --review-digests, review the actual text (prompts/08_review.md), then paste the review object. A review is tied to normalized body text; edit the body and the review is stale.",
+  "schema_version": 2,
+  "batch": "YYYY-MM-DD_example",
+  "approved": false,
+  "letters": [
+    {
+      "company": "Example Co",
+      "target_job": "Job title",
+      "requisition_id": "123",
+      "date": "January 5, 2026",
+      "body_paragraphs": ["First paragraph.", "Second paragraph."],
+      "review": {
+        "text_sha256": "from --review-digests",
+        "evidence_revision": "the revision in evidence/claims.json",
+        "reviewer": "who actually reviewed it",
+        "reviewed_at": "YYYY-MM-DD",
+        "claim_checks": [{"statement": "a sentence from the body", "source": "ledger claim or dated user statement", "scope_check": "ownership and limits checked", "claim_id": "optional.claim_id"}],
+        "company_sources": [{"url": "https://example.com/careers/123", "detail": "what the page supports"}],
+        "role_match": "which of the role's needs this answers and with what evidence",
+        "voice": "specific notes, not 'passed'",
+        "proofreading": "what was checked",
+        "warning_resolutions": {}
+      }
+    }
+  ]
+}

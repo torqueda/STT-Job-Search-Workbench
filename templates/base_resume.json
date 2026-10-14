@@ -1,0 +1,30 @@
+{
+  "_comment": "Stable identity, education and experience: the parts of a resume that do not change per persona. Filled in during setup. Projects, skills and coursework for each persona come from canonical_resumes.json and evidence/claims.json, not from here (default_skills / default_projects are only a fallback for previews).",
+  "name": "YOUR NAME",
+  "contact_line": "you@example.com | (000) 000-0000 | linkedin.com/in/your-handle | github.com/your-handle",
+  "education": [
+    {
+      "institution": "School name, Degree and field",
+      "date": "Month YYYY",
+      "location": "City, ST | honors | GPA if you use it",
+      "note": ""
+    }
+  ],
+  "default_coursework": "Relevant coursework: Course one, Course two, Course three",
+  "default_skills": [],
+  "default_projects": [],
+  "professional_experience": [
+    {
+      "title": "Role, Organization",
+      "date": "Month YYYY - Month YYYY",
+      "bullets": ["One resume-ready sentence taken from a usable claim in the evidence ledger."]
+    }
+  ],
+  "style": {
+    "font": "Calibri",
+    "body_size": 10.5,
+    "heading_color": "0F243E",
+    "projects_heading": "Projects",
+    "experience_heading": "Professional Experience"
+  }
+}

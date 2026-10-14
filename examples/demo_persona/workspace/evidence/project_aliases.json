@@ -1,0 +1,8 @@
+{
+  "_comment": "FICTIONAL DEMO DATA.",
+  "projects": {
+    "Bike-share forecast capstone": "bike[- ]?share|riverbend|parks department",
+    "Pantry Planner": "pantry planner",
+    "Library FAQ assistant": "library (?:faq )?assistant|library faq"
+  }
+}

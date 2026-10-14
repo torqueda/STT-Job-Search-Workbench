@@ -1,0 +1,25 @@
+{
+  "_comment": "FICTIONAL DEMO. A schema_version 2 batch spec: it names personas and orders, never content.",
+  "schema_version": 2,
+  "batch": "2026-01-06_demo",
+  "approved": true,
+  "versions": [
+    {
+      "canonical_id": "DataAnalytics",
+      "canonical_revision": "2026-01-05.1",
+      "label": "DataAnalytics",
+      "job_family": "data_analytics",
+      "companies": ["Brightwater Example Inc."],
+      "target_jobs": ["Data Analyst I - requisition 1003"]
+    },
+    {
+      "canonical_id": "AIApplications",
+      "canonical_revision": "2026-01-05.1",
+      "label": "AIApplications",
+      "job_family": "ai_applications",
+      "companies": ["Cedar Example Labs"],
+      "target_jobs": ["Machine Learning Engineer II - requisition 2010"],
+      "project_order": ["pantry", "library"]
+    }
+  ]
+}

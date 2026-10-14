@@ -1,0 +1,9 @@
+{
+  "_how_to": [
+    "Teaches the storytelling check to recognise your projects. One entry per project or client you might mention in a screening answer, letter or email.",
+    "Key: the name shown in warnings. Value: a case-insensitive regex that matches how the project is referred to (its name, a client name, a distinctive phrase).",
+    "When an answer mentions a project listed here without saying what kind of project it was and why it existed, the check flags it (project_intro).",
+    "Example: \"Library chatbot evaluation\": \"library chatbot|\\\\bshelfbot\\\\b\""
+  ],
+  "projects": {}
+}

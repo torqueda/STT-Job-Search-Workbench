@@ -1,0 +1,23 @@
+{
+  "_how_to": "Input for scripts/application_package.py. Archives reviewed final files before submission; does not establish that they were submitted, with hashes. Needs your recorded Gate 1 approval, a fit rationale, three responsibility-to-evidence mappings, the saved job description, and one review file per attachment (see review.EXAMPLE.json). A final resume review also records page_count (within config.resume_limits.max_pages, default 1) and visual_review.",
+  "company": "Example Co",
+  "title": "Job title",
+  "requisition_id": "123",
+  "url": "https://example.com/careers/123",
+  "family": "your_job_family",
+  "fit": "Good",
+  "source": "employer site",
+  "resume_version": "PersonaName@0.0.1",
+  "date": "2026-01-05",
+  "fit_approved": false,
+  "fit_rationale": "Why this role fits, in one or two sentences.",
+  "responsibilities": [
+    {"duty": "Central responsibility one", "evidence": "claim.id"},
+    {"duty": "Central responsibility two", "evidence": "claim.id"},
+    {"duty": "Central responsibility three", "evidence": "claim.id"}
+  ],
+  "jd_file": "job_descriptions/2026-01-05_example-co_123.txt",
+  "attachments": [
+    {"kind": "resume", "path": "final/Your Name - Resume - Example Co.pdf", "review_file": "reviews/2026-01-05/resume_review.json"}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "_how_to": [
+    "Employers whose own job boards you want read by scripts/employer_watch.py. Keep it to employers you would actually apply to.",
+    "ats: 'greenhouse' or 'lever' (public job-board endpoints), or 'manual' for an employer with no feed we can read yet.",
+    "token: the board name in the employer's careers URL, e.g. boards.greenhouse.io/<token> or jobs.lever.co/<token>.",
+    "metro: a key from 'metros' below; postings must be in that metro or remote in the U.S.",
+    "Example entries (placeholders, replace them):",
+    "{\"name\": \"Example Corp\", \"ats\": \"greenhouse\", \"token\": \"examplecorp\", \"metro\": \"home\"}",
+    "{\"name\": \"Another Co\", \"ats\": \"lever\", \"token\": \"anotherco\", \"metro\": \"home\"}",
+    "{\"name\": \"Third Co\", \"ats\": \"manual\", \"note\": \"no public feed; check its careers page by hand\"}"
+  ],
+  "metros": {
+    "home": "\\b(Your City|Nearby Suburb|ST)\\b"
+  },
+  "employers": []
+}

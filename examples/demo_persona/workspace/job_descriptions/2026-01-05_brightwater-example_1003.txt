@@ -1,0 +1,18 @@
+FICTIONAL DEMO POSTING (not a real job)
+
+Brightwater Example Inc.
+Data Analyst I   |   Requisition 1003   |   Springfield, ST (hybrid)   |   Posted 2026-01-02
+
+About the role
+You will turn operational data into weekly reports and forecasts for our logistics managers, and help them decide
+where to stock inventory next week.
+
+What you will do
+- Build and maintain weekly demand forecasts and report on their accuracy.
+- Clean and join data from warehouse, weather and calendar sources using Python and SQL.
+- Present findings to non-technical managers and recommend actions.
+
+Requirements
+- Bachelor's degree in statistics, data science or a related field.
+- 0-2 years of experience with Python and SQL.
+- Authorized to work in the United States. No sponsorship available.

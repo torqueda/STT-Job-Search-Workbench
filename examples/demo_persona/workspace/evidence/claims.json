@@ -1,0 +1,95 @@
+{
+  "_comment": "FICTIONAL DEMO DATA. Every claim, number and organization below is invented to demonstrate the ledger format.",
+  "revision": "2026-01-05.1",
+  "change_note": "2026-01-05 (revision 2026-01-05.1): demo ledger created for the example persona. Previous: none.",
+  "authority": "Only claims with status 'usable' may be used. Reflections carry motives and personal details in the user's own words.",
+  "claims": {
+    "bikeshare.purpose": {
+      "text": "A course capstone for a city parks department that wanted to staff and stock its bike-share stations ahead of demand, by predicting daily rentals from weather and the calendar.",
+      "source": "Jordan's answer in the evidence interview, 2026-01-03 (fictional)",
+      "ownership": "team capstone (four students); Jordan one of four",
+      "limitations": "A capstone for the department, not a deployed system. The department's own staffing decisions are not claimed.",
+      "status": "usable"
+    },
+    "bikeshare.how": {
+      "text": "Built the feature pipeline and evaluation harness in Python (pandas, scikit-learn) for a gradient-boosted daily-rental model, joining three years of station logs with weather and holiday data.",
+      "source": "Jordan's answer in the evidence interview, 2026-01-03 (fictional); capstone report section 4",
+      "ownership": "personal: feature pipeline and evaluation harness; teammates built the dashboard and the baseline model",
+      "limitations": "Model tuning was shared. Do not claim the dashboard.",
+      "status": "usable"
+    },
+    "bikeshare.result": {
+      "text": "Cut mean absolute error from 41 to 29 rentals per day against a seasonal-average baseline on a held-out final month.",
+      "source": "Capstone report, table 3 (fictional)",
+      "ownership": "team result; Jordan produced the evaluation",
+      "limitations": "One held-out month, one city. A model error on a test month, not a realized operational saving.",
+      "status": "usable"
+    },
+    "pantry.purpose": {
+      "text": "A personal project to cut food waste at home: a small web app that suggests meals from what is already in the pantry.",
+      "source": "Jordan, in chat 2026-01-03 (fictional)",
+      "ownership": "personal",
+      "limitations": "Used only by Jordan and household. No other users.",
+      "status": "usable"
+    },
+    "pantry.how": {
+      "text": "Built the app end to end with Flask and SQLite, including recipe matching by ingredient overlap and 40 unit tests.",
+      "source": "Jordan, in chat 2026-01-03 (fictional); repository",
+      "ownership": "personal",
+      "limitations": "Runs locally; not publicly deployed.",
+      "status": "usable"
+    },
+    "pantry.result": {
+      "text": "Matched suggestions to pantry contents for a hand-entered set of 120 recipes, with unit tests covering the matching and expiry rules.",
+      "source": "Repository tests (fictional)",
+      "ownership": "personal",
+      "limitations": "A functioning personal tool. No claim about food saved or users.",
+      "status": "usable"
+    },
+    "library.purpose": {
+      "text": "A course project in natural language processing that asked whether a retrieval-based assistant could answer a university library's common questions better than keyword search.",
+      "source": "Jordan's answer in the evidence interview, 2026-01-03 (fictional)",
+      "ownership": "individual course project",
+      "limitations": "A course experiment. The library did not adopt or deploy it.",
+      "status": "usable"
+    },
+    "library.how": {
+      "text": "Built a retrieval pipeline in Python with sentence embeddings and a FAISS index over 85 library FAQ pages, and a scoring script for answer correctness.",
+      "source": "Jordan's answer in the evidence interview, 2026-01-03 (fictional)",
+      "ownership": "personal",
+      "limitations": "Retrieval and scoring were Jordan's; answer text came from an off-the-shelf language model.",
+      "status": "usable"
+    },
+    "library.result": {
+      "text": "Answered 41 of 60 hand-written test questions correctly with embedding retrieval versus 29 of 60 with keyword search.",
+      "source": "Project report, table 2 (fictional)",
+      "ownership": "personal",
+      "limitations": "Small hand-written test set judged by one reviewer (Jordan). Not a general accuracy figure.",
+      "status": "usable"
+    },
+    "registrar.report": {
+      "text": "Replaced a manual weekly enrollment report with a Python script that produces the same tables, cutting the preparation step from about an hour to a few minutes.",
+      "source": "Jordan's answer in the evidence interview, 2026-01-03 (fictional)",
+      "ownership": "personal",
+      "limitations": "The time figures are Jordan's own estimates. The office's wider reporting is not claimed.",
+      "status": "usable"
+    }
+  },
+  "reflections": {
+    "motive.next_role": {
+      "text": "Wants a first role where the analysis feeds a real decision and a more experienced person reviews the work, so the skills grow quickly.",
+      "source": "Jordan, in chat 2026-01-03 (fictional)",
+      "status": "usable"
+    },
+    "pantry.motive": {
+      "text": "Built the Pantry Planner because food kept going bad at home and a spreadsheet was not getting used.",
+      "source": "Jordan, in chat 2026-01-03 (fictional)",
+      "status": "usable"
+    }
+  },
+  "credentials": {},
+  "languages": {
+    "spanish": {"text": "Conversational Spanish.", "source": "Jordan, in chat 2026-01-03 (fictional)", "status": "usable"}
+  },
+  "unresolved": ["Whether the capstone report may be shared publicly (client permission) - ask before linking it."]
+}

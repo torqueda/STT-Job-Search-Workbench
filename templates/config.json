@@ -1,0 +1,43 @@
+{
+  "_comment": "Settings the scripts read. The assistant fills this in during setup (prompts/01_setup_interview.md); edit it any time. Paths are relative to the workspace. Preferences the assistant reads (stretch share, posting age, weekly targets) live in PROFILE_AND_RULES.md; the numbers below are the ones the scripts enforce, so keep the two in agreement.",
+
+  "tracker": {
+    "format": "csv",
+    "path": "tracker.csv",
+    "_xlsx_example": {"format": "xlsx", "path": "My Applications.xlsx", "sheet": "Sheet1", "header_row": 1,
+                      "columns": {"date": "A", "company": "B", "job_title": "C", "type": "D", "location": "E", "link": "F",
+                                  "requisition_id": "G", "family": "H", "fit": "I", "source": "J", "referral": "K",
+                                  "resume_version": "L", "package": "M", "status": "N", "stage_date": "O",
+                                  "response_date": "P", "interview_date": "Q", "next_action": "R", "notes": "S"}}
+  },
+  "backup_keep": 30,
+  "events_path": "application_events.jsonl",
+
+  "duplicate_check_days_threshold": 60,
+  "max_applications_per_company_in_window": 2,
+
+  "excluded_companies": [],
+  "_excluded_companies_note": "Plain names, or {\"name\": \"Acme\", \"reason\": \"why\", \"until\": \"YYYY-MM-DD\"} for an exclusion that ends. Record the reason and date in PROFILE_AND_RULES.md as well.",
+  "excluded_keywords": [],
+  "excluded_title_patterns": ["^(?:senior|sr\\.?|principal|lead|staff)\\b"],
+  "_excluded_title_patterns_note": "Regexes tested against the TITLE only. A seniority word at the start of a title excludes it; a posting that merely mentions senior colleagues does not.",
+  "lane_title_patterns": [],
+  "_lane_title_patterns_note": "For feeds (sourcing.py --source github/file): when not empty, a title must match one of these regexes. Leave empty while you are learning what your lanes are.",
+
+  "sources": {
+    "github_feed_url": "https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/dev/.github/scripts/listings.json",
+    "_note": "An open, community-maintained feed of new-graduate roles, used as an example. Replace it, or use --source manual, if it does not fit your search."
+  },
+  "watch_filters": {},
+  "_watch_filters_note": "Overrides for employer_watch.py: lane, off_lane, level, keep_despite_level, remote_pattern (regexes).",
+
+  "letters": {
+    "min_words": 120,
+    "max_words": 350,
+    "required_opening": null,
+    "required_closing": null
+  },
+  "resume_limits": {"max_pages": 1, "max_skill_groups": 4, "max_skills_total": 28, "max_courses": 6, "max_projects": 3,
+                    "max_bullets_per_project": 2, "max_bullets_per_role": 2},
+  "editorial_checks_disabled": []
+}
